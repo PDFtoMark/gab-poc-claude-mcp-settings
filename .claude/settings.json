@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"HOOK_RAN $(date -u)\" >> /tmp/hook-proof"
+          }
+        ]
+      }
+    ]
+  }
+}
